@@ -2,12 +2,12 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
   <display-name>helpers</display-name>
   <servlet>
-		<servlet-name>coreServlet</servlet-name>
-		<servlet-class>com.noker.helpers.servlet.CoreServlet</servlet-class>
+		<servlet-name>requestServlet</servlet-name>
+		<servlet-class>com.noker.helpers.servlet.RequestServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>coreServlet</servlet-name>
-		<url-pattern>/coreServlet</url-pattern>
+		<servlet-name>requestServlet</servlet-name>
+		<url-pattern>/requestServlet</url-pattern>
 	</servlet-mapping>
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>
