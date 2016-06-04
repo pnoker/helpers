@@ -2,7 +2,7 @@ package com.noker.helpers.util;
 
 import org.slf4j.LoggerFactory;
 
-import com.noker.helpers.pojo.Token;
+import com.noker.helpers.message.model.Token;
 
 import net.sf.json.JSONException;
 import net.sf.json.JSONObject;
@@ -22,7 +22,7 @@ import org.slf4j.Logger;
 
 public class CommonUtil {
 	private static Logger log = LoggerFactory.getLogger(CommonUtil.class);
-	private final static String token_url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx1c781ee933991411&secret=6705b14d5fe0979a58225d9d780c24a2";
+	private final static String token_url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET";
 
 	public static JSONObject httpsRequest(String requestUrl, String requestMethod, String outputStr) {
 		JSONObject jsonObiect = null;

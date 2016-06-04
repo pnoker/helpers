@@ -7,7 +7,7 @@ import com.noker.helpers.message.model.Article;
 /*文本消息*/
 public class NewsMessage extends BaseMessage {
 	private int ArticleCount;// 图文消息个数，限制为10条以内
-	private List<Article> Article;// 多条图文消息，默认为第一个item为大图
+	private List<Article> Articles;// 多条图文消息，默认为第一个item为大图
 
 	public int getArticleCount() {
 		return ArticleCount;
@@ -17,12 +17,12 @@ public class NewsMessage extends BaseMessage {
 		ArticleCount = articleCount;
 	}
 
-	public List<Article> getArticle() {
-		return Article;
+	public List<Article> getArticles() {
+		return Articles;
 	}
 
-	public void setArticle(List<Article> article) {
-		Article = article;
+	public void setArticles(List<Article> articles) {
+		Articles = articles;
 	}
 
 }

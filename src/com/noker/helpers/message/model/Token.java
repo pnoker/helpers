@@ -1,4 +1,4 @@
-package com.noker.helpers.pojo;
+package com.noker.helpers.message.model;
 
 public class Token {
 	private String accessToken;// 接口访问凭证

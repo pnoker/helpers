@@ -16,7 +16,7 @@ public class Article {
 	}
 
 	public String getDescription() {
-		return Description;
+		return null == Description ? "" : Description;
 	}
 
 	public void setDescription(String description) {
@@ -24,7 +24,7 @@ public class Article {
 	}
 
 	public String getPicUrl() {
-		return PicUrl;
+		return null == PicUrl ? "" : PicUrl;
 	}
 
 	public void setPicUrl(String picUrl) {
@@ -32,7 +32,7 @@ public class Article {
 	}
 
 	public String getUrl() {
-		return Url;
+		return null == Url ? "" : Url;
 	}
 
 	public void setUrl(String url) {
